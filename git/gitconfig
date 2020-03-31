@@ -1,6 +1,6 @@
 [user]
-	name = Georgii Staroselskii
-	email = georgii.staroselskii@emlid.com
+	name = Ilia Ershov 
+	email = ilia.ershov@emlid.com
 [alias]
     lg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     unstage = reset HEAD
@@ -8,15 +8,15 @@
     undo = checkout --
     subupdate = submodule update --init --recursive
     cpick = cherry-pick
-    branchdate =  ! ~/.git/helpers/git-branchdate-helper
+    #branchdate =  ! ~/.git/helpers/git-branchdate-helper
 
 [merge]
-	tool = vimdiff
-	ff = only
-	conflictstyle = diff3
+	#tool = vimdiff
+	#ff = only
+	#conflictstyle = diff3
 [core]
 	excludesfile = ~/.gitignore
 [color]
-	ui = auto
+	#ui = auto
 [gpg]
-	program = gpg2
+	#program = gpg2
