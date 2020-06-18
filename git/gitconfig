@@ -8,6 +8,7 @@
     undo = checkout --
     subupdate = submodule update --init --recursive
     cpick = cherry-pick
+    cd = checkout
     #branchdate =  ! ~/.git/helpers/git-branchdate-helper
 
 [merge]
