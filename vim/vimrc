@@ -62,3 +62,8 @@ filetype indent on
 
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 set laststatus=2
+
+" Set syntax highlighting for specific file types
+autocmd BufRead,BufNewFile *.md set filetype=markdown
+autocmd BufRead,BufNewFile tmux.conf.local set filetype=tmux
+autocmd BufRead,BufNewFile vimrc.local set filetype=vim
